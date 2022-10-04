@@ -7,5 +7,7 @@
 -functions to gather user input (length, uppercase, numbers, and special characters
 -funiton to generate password
 -funtion to show password on website
-Preview
+
+PREVIEW
+
 ![Screen Shot 2022-10-03 at 21 25 49 PM  1](https://user-images.githubusercontent.com/111612523/193714953-075c8114-0479-4fc4-b32a-dfca54502204.png)
