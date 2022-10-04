@@ -1,4 +1,5 @@
 // Assignment Code
+//variables
 var generateBtn = document.querySelector("#generate");
 var lower = "abcdefghijklmnopqrstuvwxyz"
 var upper = "ABCDEFGHIGKLMNOPQRSTUVWXYZ"
@@ -11,6 +12,7 @@ var number1;
 var special1;
 
 // Write password to the #password input
+//set length funtion
 function makeLength(){
 passlength = window.prompt("How long will the password be?");
  
@@ -24,7 +26,7 @@ if (passlength<8||passlength>128){
   }
   return passlength;
 }
-
+//ask if user wants upercase
 function uppercaseTest(){
 uppercase1 = window.prompt("will it have uppercase?");
 if (uppercase1 == "yes"){
@@ -41,7 +43,7 @@ else {
 }
 return uppercase1;
 }
-
+// ask if user wants numbers
 function numbersTest(){
 number1 = window.prompt("are you going to have numbers?")
 if (number1 == "yes"){
@@ -59,7 +61,7 @@ else {
 }
 return number1;
 }
-
+//ask user if they want special charachters
 function specialTest(){
 special1 = window.prompt("will it have special charachters?");
 
@@ -78,7 +80,7 @@ else {
 }
 return special1;
 }
-
+//genertates final password
 function generatePassword(){
 makeLength();
 uppercaseTest();
