@@ -2,7 +2,7 @@
 
 application: https://har015.github.io/passwordChallenge/
 
--when user hits generate password button, alet pops up
+-when user hits generate password button, alert pops up
 
 -alert allows user to first enter password length 8-128
 
