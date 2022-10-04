@@ -14,9 +14,9 @@ application: https://har015.github.io/passwordChallenge/
 
 -functions to gather user input (length, uppercase, numbers, and special characters
 
--funiton to generate password
+-funciton to generate password
 
--funtion to show password on website
+-function to show password on website
 
 PREVIEW
 
